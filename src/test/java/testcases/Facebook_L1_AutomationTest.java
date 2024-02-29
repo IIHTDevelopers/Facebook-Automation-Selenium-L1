@@ -55,7 +55,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		
 		FaceBookPageInstance.validateTheLoginPage();
 		//softAssert.assertEquals("todo", FaceBookPageInstance.validateTheLoginPage());
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -67,7 +67,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.validatePresenceOfAllFieldInTheLoginPage();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -90,7 +90,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.Validate_Incorrect_Password();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -102,7 +102,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		FaceBookPageInstance = new FaceBookPage(driver);
 		//Note the below todo and method username_password() has to be implemented by the implementor
 		FaceBookPageInstance.username_password();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(),true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -113,7 +113,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.loginbutton_is_present_clickable();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -125,7 +125,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.titleoftheloginpage();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(),true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -137,7 +137,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.Click_on_forgot_password();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -149,7 +149,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.Click_on_Create_new_account();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -160,7 +160,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.navigate_to_the_signUp_page();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -172,7 +172,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		FaceBookPageInstance = new FaceBookPage(driver);
 		//Note the below todo and method Click_on_Create_new_account() has to be implemented by the implementor
 		FaceBookPageInstance.enter_firstName_surname();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(),true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -184,7 +184,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		FaceBookPageInstance = new FaceBookPage(driver);
 		//Note the below todo and method Click_on_Create_new_account() has to be implemented by the implementor
 		FaceBookPageInstance.enter_MobileNumber();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -196,7 +196,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		FaceBookPageInstance = new FaceBookPage(driver);
 		//Note the below todo and method select_different_DOB_fields() has to be implemented by the implementor
 		FaceBookPageInstance.select_different_DOB_fields();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -207,7 +207,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.verify_dates_are_selectable();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -219,7 +219,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.verify_captured_DOB_values();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -230,7 +230,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		FaceBookPageInstance = new FaceBookPage(driver);
 		//Note the below todo and method verify_captured_DOB_values() has to be implemented by the implementor
 		 FaceBookPageInstance.select_radio_buttons();
-		 yakshaAssert(currentTest(), false, businessTestFile);
+		 yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -242,7 +242,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.Validate_only_one_radio_button_should_be_selectable();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -254,7 +254,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.navigate_to_Terms_page();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -266,7 +266,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.navigate_to_Data_Policy();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -278,7 +278,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		FaceBookPageInstance = new FaceBookPage(driver);
 		//Note the below todo and method navigate_to_Data_Policy() has to be implemented by the implementor
 		 FaceBookPageInstance.clicking_on_sign_up();
-		 yakshaAssert(currentTest(), false, businessTestFile);
+		 yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
@@ -290,7 +290,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		softAssert = new SoftAssert();		
 		FaceBookPageInstance = new FaceBookPage(driver);
 		FaceBookPageInstance.validate_the_error_message();
-		yakshaAssert(currentTest(), false, businessTestFile);
+		yakshaAssert(currentTest(), true, businessTestFile);
 		}catch(Exception ex){
 			yakshaAssert(currentTest(), false, businessTestFile);
 		}
