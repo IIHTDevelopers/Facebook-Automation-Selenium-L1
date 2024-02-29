@@ -41,7 +41,7 @@ public class FaceBookPage extends StartupPage {
 		}catch(Exception e) {
 			throw e;
 		}
-		return new FaceBookPage(driver);		
+		return null;		
 	}
 	
 	public String Click_on_forgot_password() {
@@ -56,7 +56,7 @@ public class FaceBookPage extends StartupPage {
 		}catch(Exception e) {
 			throw e;
 		}
-		return new FaceBookPage(driver);	
+		return null;	
 	}
 	public String navigate_to_the_signUp_page() {
 		// TODO Auto-generated method stub
@@ -78,7 +78,7 @@ public class FaceBookPage extends StartupPage {
 		}catch(Exception e) {
 			throw e;
 		}
-		return new FaceBookPage(driver);	
+		return null;	
 	}
 	
 	public FaceBookPage verify_dates_are_selectable() {
@@ -87,7 +87,7 @@ public class FaceBookPage extends StartupPage {
 		}catch(Exception e) {
 			throw e;
 		}
-		return new FaceBookPage(driver);	
+		return null;	
 	}
 	
 	public String verify_captured_DOB_values() {
@@ -101,7 +101,7 @@ public class FaceBookPage extends StartupPage {
 		}catch(Exception e) {
 			throw e;
 		}
-		return new FaceBookPage(driver);	
+		return null;	
 	}
 	public FaceBookPage Validate_only_one_radio_button_should_be_selectable() {
 		try {
@@ -109,7 +109,7 @@ public class FaceBookPage extends StartupPage {
 		}catch(Exception e) {
 			throw e;
 		}
-		return new FaceBookPage(driver);
+		return null;
 	}
 	
 	public FaceBookPage navigate_to_Terms_page() {
@@ -118,7 +118,7 @@ public class FaceBookPage extends StartupPage {
 		}catch(Exception e) {
 			throw e;
 		}
-		return new FaceBookPage(driver);	
+		return null;	
 	}
 	public FaceBookPage navigate_to_Data_Policy() {
 		try {
@@ -126,7 +126,7 @@ public class FaceBookPage extends StartupPage {
 		}catch(Exception e) {
 			throw e;
 		}
-		return new FaceBookPage(driver);	
+		return null;	
 	}
 	
 	public FaceBookPage clicking_on_sign_up() {
@@ -135,7 +135,7 @@ public class FaceBookPage extends StartupPage {
 		}catch(Exception e) {
 			throw e;
 		}
-		return new FaceBookPage(driver);	
+		return null;	
 	}
 	
 	public String validate_the_error_message() {
