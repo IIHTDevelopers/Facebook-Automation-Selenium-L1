@@ -1,27 +1,16 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class FaceBookPage extends StartupPage {
-
-	//WebElemet Declaration
-	By pageTitleText = By.xpath(""); 
-	// add other locators
-
-	//Getting the page name
-	String pageName = this.getClass().getSimpleName();
-	
-
-	
-
 
 	public FaceBookPage(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
 	
-	
+	//Expected data will be fetch from config.json file,path of the json file is:FaceBook_Automation_Dummy/src/main/resources/config.json
+
 	public String validateTheLoginPage() {
 		// TODO Auto-generated method stub
 		return null;

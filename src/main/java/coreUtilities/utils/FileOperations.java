@@ -32,7 +32,6 @@ public class FileOperations
 	public Properties properties;
 	
 	
-	
 	/**
 	 * This method is useful to read the JSON file which must be simple in structure
 	 * @param file - {@link String} JSON file location
@@ -43,22 +42,6 @@ public class FileOperations
 	@SuppressWarnings("unchecked")
 	public Map<String, String> readJson(String file, String jsonNode) throws FileNotFoundException, IOException, ParseException
 	{
-		jsonParser = new JSONParser();
-		jsonObject = (JSONObject)jsonParser.parse(new FileReader(file));
-		return (Map<String, String>) jsonObject.get(jsonNode);
-
-	}
-	
-	/**
-	 * This method is useful to read the Property file which must be simple in structure
-	 * @param file - {@link String} Property file location
-	 * @return {@link Map}
-	 * @throws FilloException
-	 */
-	public Map<String, String> readProperty(String file) throws FileNotFoundException, IOException
-	{
 		return null;
 	}
-	
-	
 }
